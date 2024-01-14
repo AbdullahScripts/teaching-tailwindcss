@@ -657,6 +657,10 @@ video {
   margin-bottom: 3.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -1237,6 +1241,10 @@ video {
 
   .md\:w-\[3\%\] {
     width: 3%;
+  }
+
+  .md\:w-\[80\*\] {
+    width: 80*;
   }
 
   .md\:flex-row {
