@@ -1,0 +1,48 @@
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://source.unsplash.com/1920x600/?house");
+
+  /* Set a specific height */
+  height: 80vh;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  width: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: whitesmoke;
+  position: relative;
+  /* margin-bottom: 50px; */
+}
+
+/* hero section  */
+
+.s-btn {
+  width: max-content !important;
+}
+
+/* card section  */
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px !important;
+
+}
+
+
+/* touch contact  */
+
+.touch{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+/* main 3 cards  */
+
+.m-card{
+
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+
+}
+
