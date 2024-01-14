@@ -246,15 +246,16 @@
 
 <!-- footer  -->
 
-<footer class="h-screen">
-  <div class="clip-f flex flex-col md:flex-row w-full md:w-[80%]">
+<footer >
 
-<div class="icon-f">
-<div class="flex flex-col gap-1 mb-4 text-white">
+  <div class="clip-f flex gap-5 flex-col md:flex-row w-full m-auto md:w-[80%] p-5 mt-[40px]">
+
+<div class="icon-f  w-full md:w-[25%]">
+<div class="flex flex-col gap-y-3 mb-4  text-slate-300">
   <h1 class="text-2xl font-bold">SB UI Kit Pro</h1>
 <p class="text-sm">Designe Made Easy</p>
 </div>
-<div class="flex gap-1">
+<div class="flex ">
   <img src="/Assests/fb.png" alt="">
 <img src="/Assests/linkedin.png" alt="">
 <img src="/Assests/instagram.png" alt="">
@@ -263,10 +264,82 @@
 </div>
 
 
+<div class="cons-1 text-center flex flex-row justify-between w-full text-slate-300 md:w-[32.5%]">
+
+<div class="icon-1 flex  flex-col gap-y-5">
+  <p>Products</p>
+  <p>Landing</p>
+  <p>Pages</p>
+  <p>Sections</p>
+  <p>Documentation</p>
+  <p>changeLog</p>
+</div>
+
+<div class="icon-1 flex flex-col gap-y-5">
+  <p>Practical</p>
+  <p>Documentation</p>
+  <p>ChangeLog</p>
+  <p>Theme Customiser</p>
+  <p>UI KIT</p>
+ 
+</div>
+
+
+
+</div>
+
+<div class="cons-1 flex text-center justify-between w-full text-slate-300 md:w-[32.5%]">
+
+<div class="icon-1 flex flex-col gap-y-5">
+  <p>Include</p>
+  <p>Utilities</p>
+  <p>Components</p>
+  <p>Layout</p>
+  <p>Code</p>
+  <p>Product</p>
+  <p>Afility</p>
+  <p>Update</p>
+</div>
+
+<div class="icon-1 flex flex-col gap-y-5">
+  <p>Legal</p>
+  <p>Privacy Policy</p>
+  <p>Term and Condition</p>
+  <p>Licence</p>
+  
+ 
+</div>
+
+
+
+</div>
+
+
+
+  </div>
+  <div class="w-full line md:w-[80%] m-auto pt-20">
+
+<div class="w-full m-auto h-[2px] bg-slate-300"></div>
+
+<div class="last pt-16 pb-5 flex justify-between text-slate-300">
+  <div class="last-l-f pl-2">
+    <h1 class="text-xs  font-bold" id="f-year">CopyRight © Your Website 2022</h1>
+  </div>
+  <div class="last-l-f pl-2 mr-2">
+    <h1 class="text-xs font-bold">Privacy policy terms and Condition</h1>
+  </div>
+</div>
+
   </div>
 </footer>
 
+<script>
+   let currentDate = new Date(); 
+        let currentYear = currentDate.getFullYear();
+        // console.log(currentYear)
 
+        document.getElementById("f-year").innerHTML = `CopyRight © Your Website ${currentYear}`;
+</script>
 
   </body>
 </html>
